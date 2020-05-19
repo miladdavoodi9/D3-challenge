@@ -81,37 +81,5 @@ d3.csv("assets/data/data.csv").then(function(data) {
         .attr("dy", d => yLinearScale(d.healthcare))
         .classed("stateText", true);
 
-    // chartGroup.select("g")
-    //     .selectAll("circle")
-    //     .data(data)
-    //     .enter()
-    //     .append("text")
-    //     .text(d => d.abbr)
-    //     .attr("x", d => xLinearScale(d.poverty))
-    //     .attr("y", d => yLinearScale(d.healthcare))
-    //     .attr("dy", -395)
-    //     .attr("text-anchor", "middle")
-    //     .attr("font-size", "12px")
-    //     .attr("fill", "black");
-
-    // console.log(d)
-
-
 });
 
-
-
-
-
-// d3.csv("assets/data/data.csv").then(function(data) {
-//     console.log(data);
-// });
-
-
-// function init() {
-//     buildScatter();
-
-
-// };
-
-// init();
